@@ -27,7 +27,7 @@ configure_aws_cli() {
 
 tag_and_push_images() {
   echo "Tagging and pushing images..."
-  $(aws ecr get-login --region "${ECS_REGION}")
+  echo $(aws ecr get-login --region "${ECS_REGION}")
   # tag
   docker tag ${IMAGE_BASE}_users-db-review ${ECR_URI}/${NAMESPACE}/users-db-review:${TAG}
   docker tag ${IMAGE_BASE}_movies-db-review ${ECR_URI}/${NAMESPACE}/movies-db-review:${TAG}
