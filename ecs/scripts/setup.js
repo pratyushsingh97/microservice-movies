@@ -76,4 +76,6 @@ return ensureAuthenticated()
   }
   console.log(`ECS Cluster -> ${cluster.clusters[0].clusterName}`);
 })
+
+// changes
 .catch((err) => { console.log(err); });
