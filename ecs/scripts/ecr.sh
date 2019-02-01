@@ -5,6 +5,8 @@
 
 set -e
 
+# variables
+
 ECS_REGION="us-east-1"
 NAMESPACE="microservicemovies"
 IMAGE_BASE="microservicemovies"
