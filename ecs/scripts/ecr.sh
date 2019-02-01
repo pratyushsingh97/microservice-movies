@@ -44,6 +44,5 @@ tag_and_push_images() {
 }
 
 # main
-
 configure_aws_cli
 tag_and_push_images
