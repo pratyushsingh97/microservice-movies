@@ -5,7 +5,7 @@
 
 set -e
 
-# variables
+# variable
 
 ECS_REGION="us-east-1"
 NAMESPACE="microservicemovies"
